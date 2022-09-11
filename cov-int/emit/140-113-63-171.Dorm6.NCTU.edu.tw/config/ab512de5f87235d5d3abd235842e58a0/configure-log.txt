@@ -1,0 +1,10 @@
+Native Compiler invocation: /usr/bin/gcc buffer-overflow-test.c -o buffer-overflow-test
+Working directory: /Users/bencyc1129/Desktop/test
+Comptype: gcc
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/gcc as a C++ compiler
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/g++ as a C++ compiler
+* Configuring /usr/bin/g++ as a C compiler
+* Configuring /usr/bin/ld as a C++ linker
+* Configuring /usr/bin/ar as a C++ linker

@@ -1,0 +1,5 @@
+Translation unit:
+1 -> /Users/bencyc1129/Desktop/test/buffer-overflow-test.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 42
+cov-build invocation time (seconds): 45

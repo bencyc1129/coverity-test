@@ -1,0 +1,1828 @@
+2022-09-11T13:47:34.606156Z|cov-build|53158|info|> cov-build 2022.6.0 (build 9501b3bfc3 p-2022.6-push-41)
+2022-09-11T13:47:34.606806Z|cov-build|53158|info|> Coverity Build Capture (64-bit) version 2022.6.0 on Darwin 21.6.0 x86_64
+2022-09-11T13:47:34.606806Z|cov-build|53158|info|> Internal version numbers: 9501b3bfc3 p-2022.6-push-41
+2022-09-11T13:47:34.606806Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.606847Z|cov-build|53158|info|> Dumping from hostname : 140-113-63-171.Dorm6.NCTU.edu.tw
+2022-09-11T13:47:34.606847Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> Platform info:
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> Sysname = Darwin
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> Release = 21.6.0
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> Machine = x86_64
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.606863Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.606898Z|cov-build|53158|info|> cov-build command: ./bin/cov-build --dir cov-int/ make 
+2022-09-11T13:47:34.606910Z|cov-build|53158|info|> cov-build expanded command: ./bin/cov-build --dir cov-int/ make 
+2022-09-11T13:47:34.612768Z|cov-build|53158|info|> build command: /usr/bin/make
+2022-09-11T13:47:34.612897Z|cov-build|53158|info|> thunk command: /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1/sh /Users/bencyc1129/Desktop/test/bin/cov-internal-thunk.sh make
+2022-09-11T13:47:34.612897Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.612922Z|cov-build|53158|info|> Set UseSharedCompilation to false.
+2022-09-11T13:47:34.612939Z|cov-build|53158|info|> Set COVERITY_BIN to /Users/bencyc1129/Desktop/test/bin
+2022-09-11T13:47:34.612964Z|cov-build|53158|info|> Set COVERITY_SITE_CC to Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;java;javac;javaw;kotlin;kotlinc;ld;lib;link;msbuild;nvcc;razor;scala;scalac;vbc;vbc.dll
+2022-09-11T13:47:34.612981Z|cov-build|53158|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to dotnet
+2022-09-11T13:47:34.612995Z|cov-build|53158|info|> Set COVERITY_TEMP to /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1
+2022-09-11T13:47:34.613012Z|cov-build|53158|info|> Set COVERITY_COMMON_TEMP to /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T
+2022-09-11T13:47:34.613027Z|cov-build|53158|info|> Set COVERITY_IDIR to /Users/bencyc1129/Desktop/test/cov-int
+2022-09-11T13:47:34.613051Z|cov-build|53158|info|> Set COVERITY_OUTPUT to /Users/bencyc1129/Desktop/test/cov-int/build-log.txt
+2022-09-11T13:47:34.613063Z|cov-build|53158|info|> Set COVERITY_LOG to /Users/bencyc1129/Desktop/test/cov-int/build-log.txt
+2022-09-11T13:47:34.613490Z|cov-build|53158|info|> Set COVERITY_OUTPUT_ENCODING to US-ASCII
+2022-09-11T13:47:34.613514Z|cov-build|53158|info|> Set COVERITY_SYSTEM_ENCODING to US-ASCII
+2022-09-11T13:47:34.613530Z|cov-build|53158|info|> Set COVERITY_EMIT to /Users/bencyc1129/Desktop/test/cov-int/emit
+2022-09-11T13:47:34.613551Z|cov-build|53158|info|> Set COVERITY_EMIT to /Users/bencyc1129/Desktop/test/cov-int/emit
+2022-09-11T13:47:34.613570Z|cov-build|53158|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2022-09-11T13:47:34.613685Z|cov-build|53158|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2022-09-11T13:47:34.613715Z|cov-build|53158|info|> Set COVERITY_IS_COMPILER to 0
+2022-09-11T13:47:34.613726Z|cov-build|53158|info|> Set COVERITY_TOP_PROCESS to 0
+2022-09-11T13:47:34.613735Z|cov-build|53158|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2022-09-11T13:47:34.613744Z|cov-build|53158|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2022-09-11T13:47:34.613789Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.613789Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.613789Z|cov-build|53158|info|> Dumping Environment Variables:
+2022-09-11T13:47:34.613789Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.613814Z|cov-build|53158|info|> __CFBundleIdentifier=com.apple.Terminal
+2022-09-11T13:47:34.613821Z|cov-build|53158|info|> TMPDIR=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/
+2022-09-11T13:47:34.613827Z|cov-build|53158|info|> XPC_FLAGS=0x0
+2022-09-11T13:47:34.613833Z|cov-build|53158|info|> TERM=xterm-256color
+2022-09-11T13:47:34.613839Z|cov-build|53158|info|> SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.Ti7YLEZho3/Listeners
+2022-09-11T13:47:34.613845Z|cov-build|53158|info|> XPC_SERVICE_NAME=0
+2022-09-11T13:47:34.613850Z|cov-build|53158|info|> TERM_PROGRAM=Apple_Terminal
+2022-09-11T13:47:34.613856Z|cov-build|53158|info|> TERM_PROGRAM_VERSION=445
+2022-09-11T13:47:34.613861Z|cov-build|53158|info|> TERM_SESSION_ID=80F11B34-C521-48CC-A02B-EA4D9491CBC9
+2022-09-11T13:47:34.613867Z|cov-build|53158|info|> SHELL=/bin/zsh
+2022-09-11T13:47:34.613873Z|cov-build|53158|info|> HOME=/Users/bencyc1129
+2022-09-11T13:47:34.613878Z|cov-build|53158|info|> LOGNAME=bencyc1129
+2022-09-11T13:47:34.613884Z|cov-build|53158|info|> USER=bencyc1129
+2022-09-11T13:47:34.613890Z|cov-build|53158|info|> PATH=/usr/local/Cellar/pyenv-virtualenv/1.1.5/shims:/Users/bencyc1129/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+2022-09-11T13:47:34.613900Z|cov-build|53158|info|> SHLVL=1
+2022-09-11T13:47:34.613906Z|cov-build|53158|info|> PWD=/Users/bencyc1129/Desktop/test
+2022-09-11T13:47:34.613912Z|cov-build|53158|info|> OLDPWD=/Users/bencyc1129/Desktop/test/bin
+2022-09-11T13:47:34.613917Z|cov-build|53158|info|> PYENV_SHELL=zsh
+2022-09-11T13:47:34.613923Z|cov-build|53158|info|> PYENV_VIRTUALENV_INIT=1
+2022-09-11T13:47:34.613929Z|cov-build|53158|info|> LC_CTYPE=UTF-8
+2022-09-11T13:47:34.613935Z|cov-build|53158|info|> _=/usr/bin/make
+2022-09-11T13:47:34.613940Z|cov-build|53158|info|> __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+2022-09-11T13:47:34.613946Z|cov-build|53158|info|> COVERITY_PREV_XML_CATALOG_FILES=
+2022-09-11T13:47:34.613951Z|cov-build|53158|info|> COVERITY_TOP_CONFIG=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1/cov-configure/coverity_config.xml
+2022-09-11T13:47:34.613957Z|cov-build|53158|info|> COVERITY_BUILD_INVOCATION_ID=1
+2022-09-11T13:47:34.613963Z|cov-build|53158|info|> COVERITY_CONFIG_FILE=/Users/bencyc1129/Desktop/test/config/coverity_config.xml
+2022-09-11T13:47:34.613969Z|cov-build|53158|info|> UseSharedCompilation=false
+2022-09-11T13:47:34.613974Z|cov-build|53158|info|> COVERITY_BIN=/Users/bencyc1129/Desktop/test/bin
+2022-09-11T13:47:34.613980Z|cov-build|53158|info|> COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;java;javac;javaw;kotlin;kotlinc;ld;lib;link;msbuild;nvcc;razor;scala;scalac;vbc;vbc.dll
+2022-09-11T13:47:34.613986Z|cov-build|53158|info|> COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+2022-09-11T13:47:34.613992Z|cov-build|53158|info|> COVERITY_TEMP=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1
+2022-09-11T13:47:34.613998Z|cov-build|53158|info|> COVERITY_COMMON_TEMP=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T
+2022-09-11T13:47:34.614004Z|cov-build|53158|info|> COVERITY_IDIR=/Users/bencyc1129/Desktop/test/cov-int
+2022-09-11T13:47:34.614009Z|cov-build|53158|info|> COVERITY_REWRITE_FROM=
+2022-09-11T13:47:34.614026Z|cov-build|53158|info|> COVERITY_REWRITE_TO=
+2022-09-11T13:47:34.614033Z|cov-build|53158|info|> COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+2022-09-11T13:47:34.614039Z|cov-build|53158|info|> COVERITY_OUTPUT=/Users/bencyc1129/Desktop/test/cov-int/build-log.txt
+2022-09-11T13:47:34.614045Z|cov-build|53158|info|> COVERITY_LOG=/Users/bencyc1129/Desktop/test/cov-int/build-log.txt
+2022-09-11T13:47:34.614050Z|cov-build|53158|info|> COVERITY_OUTPUT_ENCODING=US-ASCII
+2022-09-11T13:47:34.614056Z|cov-build|53158|info|> COVERITY_SYSTEM_ENCODING=US-ASCII
+2022-09-11T13:47:34.614062Z|cov-build|53158|info|> COVERITY_EMIT=/Users/bencyc1129/Desktop/test/cov-int/emit
+2022-09-11T13:47:34.614067Z|cov-build|53158|info|> COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+2022-09-11T13:47:34.614073Z|cov-build|53158|info|> COVERITY_JAVA14_WARNING_FILE=/Users/bencyc1129/Desktop/test/cov-int/warn_about_java14_compilations
+2022-09-11T13:47:34.614079Z|cov-build|53158|info|> COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2022-09-11T13:47:34.614085Z|cov-build|53158|info|> COVERITY_ENABLE_CECS_WATCHDOG=1
+2022-09-11T13:47:34.614090Z|cov-build|53158|info|> COVERITY_IS_COMPILER=0
+2022-09-11T13:47:34.614096Z|cov-build|53158|info|> COVERITY_TOP_PROCESS=0
+2022-09-11T13:47:34.614101Z|cov-build|53158|info|> COVERITY_IS_COMPILER_DESCENDANT=0
+2022-09-11T13:47:34.614107Z|cov-build|53158|info|> COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+2022-09-11T13:47:34.614113Z|cov-build|53158|info|> COVERITY_COMPILER_PATH_MISMATCH_FILE=/Users/bencyc1129/Desktop/test/cov-int/has_path_mismatches
+2022-09-11T13:47:34.614119Z|cov-build|53158|info|> COVERITY_PATHLESS_CONFIGS_FILE=/Users/bencyc1129/Desktop/test/cov-int/has_pathless_configs
+2022-09-11T13:47:34.614127Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614127Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614127Z|cov-build|53158|info|> Dumping configuration:
+2022-09-11T13:47:34.614127Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614143Z|cov-build|53158|info|> User/default configuration:
+2022-09-11T13:47:34.614143Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|> Configuration read from: command-line
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/coverity_config.xml
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|>     Node: prevent
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|>       Node: dir Value: /Users/bencyc1129/Desktop/test/cov-int
+2022-09-11T13:47:34.614152Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-1/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-2/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-1/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-2/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-ld-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-ar-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-3/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-3/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-javac-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-java-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-apt-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-javaw-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-jsp-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-android-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-capture-config-files-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-msvc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-msvc_devenv-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-msvc_msbuild-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-msvc_link-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-msvc_lib-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-csc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-csc-config-1/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-csc-config-2/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-dotnet-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-1/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-2/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-3/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-4/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-5/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-razor-config-6/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-javascript-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-html-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-typescript-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-jsx-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-vue-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-scalac-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-scala-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-vbc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-vbc-config-1/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-ruby-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-php-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-python-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-nvcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-go-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-go-module-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-kotlinc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-kotlin-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-kotlin-module-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|>     Node: include Value: /Users/bencyc1129/Desktop/test/config/template-apex-config-0/coverity_config.xml
+2022-09-11T13:47:34.614186Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-gcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: comp_name Value: gcc
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: comp_translator Value: gcc
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: id Value: gcc-gcc-.*
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: id Value: g++-gcc-.*
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: id Value: g++cc-gcc-.*
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|>   Node: md5 Value: f9687def489d7080611c957e4baa9367
+2022-09-11T13:47:34.614451Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-g++-config-0/coverity_config.xml
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: comp_name Value: g++
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: comp_translator Value: g++
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: id Value: g++-g++-.*
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-0/../user_nodefs.h
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: id Value: g++cc-g++-.*
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-0/../user_nodefs.h
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|>   Node: md5 Value: c28c5312f5cafb3461550021d5db74e3
+2022-09-11T13:47:34.614557Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-gcc-config-1/coverity_config.xml
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: comp_name Value: gcc-3
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: comp_translator Value: gcc
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: id Value: gcc-gcc-3-.*
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-1/../user_nodefs.h
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: id Value: g++-gcc-3-.*
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-1/../user_nodefs.h
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: id Value: g++cc-gcc-3-.*
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-1/../user_nodefs.h
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|>   Node: md5 Value: 4fe1cec9e33a94bdf5953221658c9630
+2022-09-11T13:47:34.614637Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-gcc-config-2/coverity_config.xml
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: comp_name Value: gcc-4
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: comp_translator Value: gcc
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: id Value: gcc-gcc-4-.*
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-2/../user_nodefs.h
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: id Value: g++-gcc-4-.*
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-2/../user_nodefs.h
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: id Value: g++cc-gcc-4-.*
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-2/../user_nodefs.h
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|>   Node: md5 Value: cfc2e26e8563cdd158837aa17fb165e1
+2022-09-11T13:47:34.614740Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-g++-config-1/coverity_config.xml
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: comp_name Value: g++-3
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: comp_translator Value: g++
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: id Value: g++-g++-3-.*
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-1/../user_nodefs.h
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: id Value: g++cc-g++-3-.*
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-1/../user_nodefs.h
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|>   Node: md5 Value: 86bad61f28143003bb013ba270e01f67
+2022-09-11T13:47:34.614842Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-g++-config-2/coverity_config.xml
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: comp_name Value: g++-4
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: comp_translator Value: g++
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: id Value: g++-g++-4-.*
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-2/../user_nodefs.h
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: id Value: g++cc-g++-4-.*
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-2/../user_nodefs.h
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|>   Node: md5 Value: 5686a79f6a497bd3e8c8d54b9391432d
+2022-09-11T13:47:34.614920Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-ld-config-0/coverity_config.xml
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: comp_name Value: ld
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: comp_translator Value: ld
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: comp_generic Value: ld
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: id Value: ld-ld-.*
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-ld-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|>   Node: md5 Value: b7c847d801b0294a4f0f52192f7f3e16
+2022-09-11T13:47:34.615008Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-ar-config-0/coverity_config.xml
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: comp_name Value: ar
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: comp_translator Value: ar
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: comp_generic Value: ar
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: id Value: ar-ar-.*
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-ar-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|>   Node: md5 Value: a125f1c14acadfc9d06e8f9e711705ce
+2022-09-11T13:47:34.615072Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-gcc-config-3/coverity_config.xml
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: comp_name Value: cc
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: comp_translator Value: gcc
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: id Value: gcc-cc-.*
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-3/../user_nodefs.h
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: id Value: g++-cc-.*
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-3/../user_nodefs.h
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: id Value: g++cc-cc-.*
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-gcc-config-3/../user_nodefs.h
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|>   Node: md5 Value: 47a502735554e6c25b61a8bf08e5fa6d
+2022-09-11T13:47:34.615136Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-g++-config-3/coverity_config.xml
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: comp_name Value: c++
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: comp_translator Value: g++
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: comp_generic Value: gnu
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: id Value: g++-c++-.*
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-3/../user_nodefs.h
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: id Value: g++cc-c++-.*
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-g++-config-3/../user_nodefs.h
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|>   Node: md5 Value: 6110077f86d72b6001f0d20220e5c335
+2022-09-11T13:47:34.615239Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-javac-config-0/coverity_config.xml
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: comp_name Value: javac
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: comp_translator Value: javac
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: comp_lang Value: Static Java
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: id Value: javac-javac-.*
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2022-09-11T13:47:34.615319Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-java-config-0/coverity_config.xml
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: comp_name Value: java
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: comp_translator Value: java
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: comp_lang Value: Static Java
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: id Value: java-java-.*
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2022-09-11T13:47:34.615388Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-apt-config-0/coverity_config.xml
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: comp_name Value: apt
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: comp_translator Value: apt
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: comp_lang Value: Static Java
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: id Value: apt-apt-.*
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2022-09-11T13:47:34.615448Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-javaw-config-0/coverity_config.xml
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: comp_name Value: javaw
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: comp_translator Value: javaw
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: comp_lang Value: Static Java
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: id Value: javaw-javaw-.*
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2022-09-11T13:47:34.615509Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-jsp-config-0/coverity_config.xml
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: comp_translator Value: jsp
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2022-09-11T13:47:34.615578Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-android-config-0/coverity_config.xml
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: comp_translator Value: android
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: comp_generic Value: java
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml|gradlew|gradlew\.bat)$
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|>   Node: md5 Value: f656edef6880a9092fcbe3e2cd89f87a
+2022-09-11T13:47:34.615642Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-capture-config-files-config-0/coverity_config.xml
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: comp_translator Value: capture-config-files
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: comp_generic Value: capture_config_files
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: file_include_pattern Value: $capture-config-files$
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|>   Node: md5 Value: b94e617f98adb465b84e44c2bb1187e2
+2022-09-11T13:47:34.615708Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-msvc-config-0/coverity_config.xml
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: comp_name Value: cl
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: comp_translator Value: msvc
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: comp_generic Value: msvc
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: id Value: msvc-cl-.*
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: id Value: msvc_cxx-cl-.*
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|>   Node: md5 Value: 6ff8accc4b09ad4e240f1b39a5f34507
+2022-09-11T13:47:34.615782Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-msvc_devenv-config-0/coverity_config.xml
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: comp_name Value: devenv
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: comp_translator Value: msvc_devenv
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: comp_generic Value: msvc
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: id Value: msvc_devenv-devenv-.*
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc_devenv-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|>   Node: md5 Value: 9e7c8ebecfb66972e502b9a89af46eab
+2022-09-11T13:47:34.615860Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-msvc_msbuild-config-0/coverity_config.xml
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: comp_name Value: msbuild
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: comp_translator Value: msvc_msbuild
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: comp_generic Value: msvc
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc_msbuild-config-0/../user_nodefs.h
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|>   Node: md5 Value: e5c2e6f12a32bf80391c2b796b7efd24
+2022-09-11T13:47:34.615934Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-msvc_link-config-0/coverity_config.xml
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: comp_name Value: link
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: comp_translator Value: msvc_link
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: comp_generic Value: msvc_link
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: id Value: msvc_link-link-.*
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc_link-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|>   Node: md5 Value: b1e089736178f146e1b07715b3996fec
+2022-09-11T13:47:34.616000Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-msvc_lib-config-0/coverity_config.xml
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: comp_name Value: lib
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: comp_translator Value: msvc_lib
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: comp_generic Value: msvc_lib
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: id Value: msvc_lib-lib-.*
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-msvc_lib-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|>   Node: md5 Value: 05f25d5becfea0c774651a40c16d3955
+2022-09-11T13:47:34.616102Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-csc-config-0/coverity_config.xml
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: comp_name Value: csc
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: comp_translator Value: csc
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: comp_lang Value: C#
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: comp_generic Value: csc
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: id Value: csc-csc-.*
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2022-09-11T13:47:34.616181Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-csc-config-1/coverity_config.xml
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: comp_name Value: csc2
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: comp_translator Value: csc
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: comp_lang Value: C#
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: comp_generic Value: csc
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: id Value: csc-csc2-.*
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2022-09-11T13:47:34.616243Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-csc-config-2/coverity_config.xml
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: comp_name Value: csc.dll
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: comp_translator Value: csc
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: comp_lang Value: C#
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: comp_generic Value: csc
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: id Value: csc-csc.dll-.*
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|>   Node: md5 Value: d7617a61a1e5d38ea17e0065e15a334c
+2022-09-11T13:47:34.616316Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-dotnet-config-0/coverity_config.xml
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: comp_name Value: dotnet
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: comp_translator Value: dotnet
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: comp_lang Value: C#
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: comp_capture_descendants Value: true
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: comp_generic Value: dotnet
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: id Value: dotnet-dotnet-.*
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|>   Node: md5 Value: c1f04f52f32e19ee321f007827420925
+2022-09-11T13:47:34.616377Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-0/coverity_config.xml
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: comp_name Value: razor
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: id Value: razor-razor-.*
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|>   Node: md5 Value: 299c29c5e1aed07e748c20434abece6a
+2022-09-11T13:47:34.616440Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-1/coverity_config.xml
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe-.*
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|>   Node: md5 Value: b8062469abf35bf27e59c61097a25898
+2022-09-11T13:47:34.616509Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-2/coverity_config.xml
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll-.*
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|>   Node: md5 Value: a9f1338dd3da86ae5a0b02feb72011bc
+2022-09-11T13:47:34.616570Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-3/coverity_config.xml
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe-.*
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|>   Node: md5 Value: d148b26c0cca97f3cfbca9c9e97fbd2c
+2022-09-11T13:47:34.616631Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-4/coverity_config.xml
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe-.*
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|>   Node: md5 Value: 4192dd38aff0a2b1f462f5ea2de56602
+2022-09-11T13:47:34.616700Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-5/coverity_config.xml
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll-.*
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|>   Node: md5 Value: 9fac531b04a3ec13b4f2c7884a7b9d4d
+2022-09-11T13:47:34.616760Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-razor-config-6/coverity_config.xml
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: comp_translator Value: razor
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: comp_lang Value: Razor
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: comp_generic Value: razor
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll-.*
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|>   Node: md5 Value: 42e63af2dc0e9a8129a530b0de6d639f
+2022-09-11T13:47:34.616820Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: comp_name Value: clang
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: comp_translator Value: clangcc
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: comp_generic Value: clang
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: id Value: clangcc-clang-.*
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: id Value: clangcxx-clang-.*
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: id Value: clangcxxcc-clang-.*
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: id Value: clangobjc-clang-.*
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: id Value: clangobjcxx-clang-.*
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|>   Node: md5 Value: a47a0321aa2c7b89eddb3dca0e3fd2d7
+2022-09-11T13:47:34.616891Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/coverity_config.xml
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: comp_name Value: clang++
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: comp_translator Value: clangcxx
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: comp_lang Value: C++
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: comp_generic Value: clang
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: id Value: clangcxx-clang++-.*
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/../user_nodefs.h
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: id Value: clangcxxcc-clang++-.*
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/../user_nodefs.h
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: id Value: clangobjc-clang++-.*
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/../user_nodefs.h
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: id Value: clangobjcxx-clang++-.*
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-clangcxx-config-0/../user_nodefs.h
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|>   Node: md5 Value: cbe662824b4940120fce6966c00f90b7
+2022-09-11T13:47:34.617022Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-javascript-config-0/coverity_config.xml
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: comp_translator Value: javascript
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: comp_generic Value: javascript
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib|map)$
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|>   Node: md5 Value: 93f302090e023647cf0b5fdcef44ded4
+2022-09-11T13:47:34.617130Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-html-config-0/coverity_config.xml
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: comp_translator Value: html
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: comp_generic Value: javascript
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|>   Node: md5 Value: d7d10d6a1e70369dda56aa898ef86396
+2022-09-11T13:47:34.617218Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-typescript-config-0/coverity_config.xml
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-typescript-0
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: comp_translator Value: typescript
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: comp_generic Value: typescript
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*(\.ts(x?)|tsconfig.json)$
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: id Value: typescript-cov-filesystem-capture-typescript-0-.*
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|>   Node: md5 Value: 1b56b199b0d6a53a05831d2f4c92addd
+2022-09-11T13:47:34.617304Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-jsx-config-0/coverity_config.xml
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: comp_translator Value: jsx
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: comp_generic Value: javascript
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.jsx$
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|>   Node: md5 Value: 5d1e0d3949dd2e7d59d0ebbcb9d50844
+2022-09-11T13:47:34.617393Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-vue-config-0/coverity_config.xml
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-vue-0
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: comp_translator Value: vue
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: comp_generic Value: javascript
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.vue$
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: id Value: vue-cov-filesystem-capture-vue-0-.*
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|>   Node: md5 Value: 366ed949b2aaae956ba72f463b10a2c2
+2022-09-11T13:47:34.617472Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-scalac-config-0/coverity_config.xml
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: comp_name Value: scalac
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: comp_translator Value: scalac
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: comp_lang Value: Scala
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: comp_generic Value: scala
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: id Value: scalac-scalac-.*
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|>   Node: md5 Value: 72f6e51a33977034a91c37366e5501cc
+2022-09-11T13:47:34.617562Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-scala-config-0/coverity_config.xml
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: comp_name Value: scala
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: comp_translator Value: scala
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: comp_lang Value: Scala
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: comp_generic Value: scala
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: id Value: scala-scala-.*
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|>   Node: md5 Value: 06e293540a5f4dc8f97f0f06a6021b74
+2022-09-11T13:47:34.617623Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-vbc-config-0/coverity_config.xml
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: comp_name Value: vbc
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: comp_translator Value: vbc
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: comp_lang Value: Visual Basic
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: comp_generic Value: vbc
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: id Value: vbc-vbc-.*
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|>   Node: md5 Value: feeb8b03a6f975f0aaca18abe6c96895
+2022-09-11T13:47:34.617684Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-vbc-config-1/coverity_config.xml
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: comp_name Value: vbc.dll
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: comp_translator Value: vbc
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: comp_lang Value: Visual Basic
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: comp_generic Value: vbc
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: id Value: vbc-vbc.dll-.*
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|>   Node: md5 Value: fb11aa1996139335dbc0bdc5b4851b37
+2022-09-11T13:47:34.617754Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-ruby-config-0/coverity_config.xml
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: comp_translator Value: ruby
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: comp_generic Value: ruby
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*(\.rb|Gemfile)$
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|>   Node: md5 Value: 9a95acc499de60467aeb7e3b29315f90
+2022-09-11T13:47:34.617815Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-php-config-0/coverity_config.xml
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: comp_translator Value: php
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: comp_generic Value: php
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.ph(p|p3|p4|p5|p7|tml)$
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|>   Node: md5 Value: 6db33a0a68d7f8c9b0f5085b9afaab3b
+2022-09-11T13:47:34.617879Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-python-config-0/coverity_config.xml
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: comp_translator Value: python
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: comp_generic Value: python
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.p(y|y3)$
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|>   Node: md5 Value: fffe872853e56190241eb6585606928f
+2022-09-11T13:47:34.617952Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-nvcc-config-0/coverity_config.xml
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_name Value: nvcc
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_translator Value: nvcc
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_lang Value: C
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_generic Value: nvcc
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_autodetect_type Value: nvcc:qnx
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_autodetect_type Value: nvcc:gnu
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_autodetect_type Value: nvcc:msvc
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: comp_is_redirect Value: true
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: id Value: nvcc-nvcc-.*
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-nvcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: id Value: nvcc_cxx-nvcc-.*
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-nvcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: id Value: nvcc_cuda-nvcc-.*
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/config/template-nvcc-config-0/../user_nodefs.h
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|>   Node: md5 Value: 38d18ea9617e51511665d469300ec0d2
+2022-09-11T13:47:34.618016Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-go-config-0/coverity_config.xml
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: comp_name Value: go
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: comp_translator Value: go
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: comp_lang Value: Go
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: comp_generic Value: go
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: id Value: go-go-.*
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|>   Node: md5 Value: 395609931cebc474122a4d66367445f5
+2022-09-11T13:47:34.618133Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-go-module-config-0/coverity_config.xml
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-go-module-0
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: comp_translator Value: go-module
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: comp_generic Value: go
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^go\.mod$
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: id Value: go-module-cov-filesystem-capture-go-module-0-.*
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|>   Node: md5 Value: 3a8cde3348dc3549d973b7ca377a639c
+2022-09-11T13:47:34.618193Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-kotlinc-config-0/coverity_config.xml
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: comp_name Value: kotlinc
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: comp_translator Value: kotlinc
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: comp_lang Value: Kotlin
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: comp_generic Value: kotlin
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: id Value: kotlinc-kotlinc-.*
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|>   Node: md5 Value: c68e7b6acd2042f4dec6d624b2d2aa7b
+2022-09-11T13:47:34.618284Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-kotlin-config-0/coverity_config.xml
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: comp_name Value: kotlin
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: comp_translator Value: kotlin
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: comp_lang Value: Kotlin
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: comp_generic Value: kotlin
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: id Value: kotlin-kotlin-.*
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|>   Node: md5 Value: 1d37b51d78837c20116306c377ae2080
+2022-09-11T13:47:34.618344Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-kotlin-module-config-0/coverity_config.xml
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-kotlin-module-0
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: comp_translator Value: kotlin-module
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: comp_generic Value: kotlin
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.kotlin_module$
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: id Value: kotlin-module-cov-filesystem-capture-kotlin-module-0-.*
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|>   Node: md5 Value: 33c8dff4b1803fd1b46ff7624a34a01b
+2022-09-11T13:47:34.618402Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|> Configuration read from: /Users/bencyc1129/Desktop/test/config/template-apex-config-0/coverity_config.xml
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|> Node: coverity
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>   Node: cit_version Value: 1
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>   Node: config
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>     Node: build
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>       Node: compiler
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: template_compiler Value: true
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: comp_name Value: cov-filesystem-capture-apex-0
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: comp_translator Value: apex
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: comp_lang Value: Non Compiled
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: comp_generic Value: apex
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: file_include_pattern Value: ^.*\.(cls|tgr|page)$
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>       Node: options
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: id Value: apex-cov-filesystem-capture-apex-0-.*
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>         Node: begin_command_line_config
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|>   Node: md5 Value: 1fb05d61e492051b5d8339f9e71cc7cf
+2022-09-11T13:47:34.618473Z|cov-build|53158|info|> 
+2022-09-11T13:47:34.653537Z|cov-build|53158|info|> Set COVERITY_DISABLE_XCODEBUILD_WORKAROUND to 1
+[53162] EXECUTING: /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1/sh /Users/bencyc1129/Desktop/test/bin/cov-internal-thunk.sh make
+[53162] EXECUTING: make
+[53162] EXECUTING: /Library/Developer/CommandLineTools/usr/bin/make
+[53167] EXECUTING: gcc buffer-overflow-test.c -o buffer-overflow-test
+[53169] CWD: /Users/bencyc1129/Desktop/test
+[53169] COMPILING: /Users/bencyc1129/Desktop/test/bin/cov-translate gcc buffer-overflow-test.c -o buffer-overflow-test
+Encountered compiler invocation for first time, configuring it: /usr/bin/gcc
+[STATUS] Using comptype gcc
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] gcc-config-0: Running sanity tests on native compiler
+[STATUS] gcc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/
+[STATUS] gcc-config-0: Retrieving values for macros
+[STATUS] gcc-config-0: Running config probes
+* Configuring /usr/bin/gcc as a C++ compiler
+[STATUS] g++-config-0: Running sanity tests on native compiler
+[STATUS] g++-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++-config-0: Retrieving values for macros
+[STATUS] g++-config-0: Running config probes
+* Configuring /usr/bin/gcc as a C compiler
+[STATUS] g++cc-config-0: Running sanity tests on native compiler
+[STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-0: Retrieving values for macros
+[STATUS] g++cc-config-0: Running config probes
+* Configuring /usr/bin/g++ as a C++ compiler
+[STATUS] g++-config-1: Running sanity tests on native compiler
+[STATUS] g++-config-1: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++-config-1: Retrieving values for macros
+[STATUS] g++-config-1: Running config probes
+* Configuring /usr/bin/g++ as a C compiler
+[STATUS] g++cc-config-1: Running sanity tests on native compiler
+[STATUS] g++cc-config-1: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-1: Retrieving values for macros
+[STATUS] g++cc-config-1: Running config probes
+* Configuring /usr/bin/ld as a C++ linker
+[STATUS] ld-config-0: Running config probes
+* Configuring /usr/bin/ar as a C++ linker
+Added template compiler configuration instance /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/coverity_config.xml
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-0/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-0/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-1/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-1/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/ld-config-0/coverity_config.xml
+    Node: include Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/ar-config-0/coverity_config.xml
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: gcc
+        Node: comp_lang Value: C
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C compiler
+        Node: comp_next_type Value: g++
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: gcc-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: version Value: 4.8.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: gcc-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: template_config_option_id Value: gcc-gcc-.*
+        Node: compile_options
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --fixed_point
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --enable_128bit_int
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --no_enable_80bit_float
+        Node: prepend_arg Value: --no_enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --no_has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: link_options
+        Node: library_search_path Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: b78607c257bb021074f2aecaa7694e4a
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: version Value: 4.8.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: template_config_option_id Value: g++-gcc-.*
+        Node: compile_options
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --enable_128bit_int
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --calling_convention_group
+        Node: prepend_arg Value: default,stdcall,cdecl,fastcall,thiscall
+        Node: prepend_arg Value: --no_enable_80bit_float
+        Node: prepend_arg Value: --no_enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: link_options
+        Node: library_search_path Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: 014de9faa5d28c7bfab1ceb1fe5f3ac2
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: gcc
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: version Value: 4.8.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-gcc-4.8.0-ab512de5f87235d5d3abd235842e58a0-0
+        Node: template_config_option_id Value: g++cc-gcc-.*
+        Node: compile_options
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --fixed_point
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --enable_128bit_int
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --no_enable_80bit_float
+        Node: prepend_arg Value: --no_enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --no_has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: link_options
+        Node: library_search_path Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 8d646a8a4fd0f76877eb4ac1b915403f
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-1/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-g++-4.8.0-ab512de5f87235d5d3abd235842e58a0-1
+        Node: version Value: 4.8.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-g++-4.8.0-ab512de5f87235d5d3abd235842e58a0-1
+        Node: template_config_option_id Value: g++-g++-.*
+        Node: compile_options
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-1/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-1/coverity-macro-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --enable_128bit_int
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --calling_convention_group
+        Node: prepend_arg Value: default,stdcall,cdecl,fastcall,thiscall
+        Node: prepend_arg Value: --no_enable_80bit_float
+        Node: prepend_arg Value: --no_enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++-config-1/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: link_options
+        Node: library_search_path Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: 29ced1830cf0955da586427b5be84504
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-1/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-g++-4.8.0-ab512de5f87235d5d3abd235842e58a0-1
+        Node: version Value: 4.8.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-g++-4.8.0-ab512de5f87235d5d3abd235842e58a0-1
+        Node: template_config_option_id Value: g++cc-g++-.*
+        Node: compile_options
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/usr/include
+        Node: sysinclude_dir Value: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-1/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-1/coverity-macro-compat.h
+        Node: prepend_arg Value: --fixed_point
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --enable_128bit_int
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 4.8.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --no_enable_80bit_float
+        Node: prepend_arg Value: --no_enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --no_has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/g++cc-config-1/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: link_options
+        Node: library_search_path Value: /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 6f0a22ce0ed7596416efe72608fc30bc
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/ld-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: ld
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: ld
+        Node: comp_lang Value: C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C/C++ Linker
+        Node: comp_generic Value: ld
+        Node: id Value: ld-ld-ab512de5f87235d5d3abd235842e58a0-0
+        Node: is_compiler Value: false
+        Node: is_linker Value: true
+      Node: options
+        Node: id Value: ld-ld-ab512de5f87235d5d3abd235842e58a0-0
+        Node: template_config_option_id Value: ld-ld-.*
+        Node: link_options
+        Node: begin_command_line_config
+  Node: md5 Value: 713393646a2be3e90c0d8f245cb460d7
+Configuration read from: /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/ar-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: ar
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: ar
+        Node: comp_lang Value: C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: UNIX-like 'ar` archiver
+        Node: comp_generic Value: ar
+        Node: id Value: ar-ar-ab512de5f87235d5d3abd235842e58a0-0
+        Node: is_compiler Value: false
+        Node: is_linker Value: true
+      Node: options
+        Node: id Value: ar-ar-ab512de5f87235d5d3abd235842e58a0-0
+        Node: template_config_option_id Value: ar-ar-.*
+        Node: link_options
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: ar_pre_translate
+        Node: begin_command_line_config
+  Node: md5 Value: 1140d17d9689147d6723b7aec86276db
+COV_TRANSLATE EXPANDED ARGS: "buffer-overflow-test.c" "-o" "buffer-overflow-test"
+[STATUS] Compiling buffer-overflow-test.c
+/Users/bencyc1129/Desktop/test/bin/cov-emit --emit_pch_dependencies --dir=/Users/bencyc1129/Desktop/test/cov-int --ignore_path=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1/cov-configure --ignore_path=/var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/cov-bencyc1129/61431742d474279c029d4463b7f3aad1/cov-bencyc1129/c1bd6555117b5a2c1c52789cc941a3da --pre_preinclude /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity-macro-compat.h --pre_preinclude /Users/bencyc1129/Desktop/test/cov-int/emit/140-113-63-171.Dorm6.NCTU.edu.tw/config/ab512de5f87235d5d3abd235842e58a0/gcc-config-0/coverity-compiler-compat.h --fixed_point --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --enable_128bit_int --no_predefined_cplusplus -w --no_predefines --comp_ver 4.8.0 --char_bit_size=8 --restrict --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --c11 --no_enable_80bit_float --no_enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --has_include_macro --has_include_next_macro --no_has_cpp_attribute_macro --no_predefines --c --no_builtin_emulation --gcc --allow_implicit_builtin --gnu_version 40800 --sys_include /usr/local/include --sys_include /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include --sys_include /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include --sys_include /Library/Developer/CommandLineTools/usr/include --sys_include "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)" -U__BLOCKS__ -D__coverity_undefine___BLOCKS__ -D__COVERITY_DISABLE_BUILTIN_DECLS -D__NO_INLINE__ --type_sizes=e16Pdlx8fi4s2 --type_alignments=e16Pdlx8fi4s2 --size_t_type=m --wchar_t_type=i --ptrdiff_t_type=l buffer-overflow-test.c 
+Emit for file '/Users/bencyc1129/Desktop/test/buffer-overflow-test.c' complete.
+[53172] EXECUTING: /Library/Developer/CommandLineTools/usr/bin/gcc buffer-overflow-test.c -o buffer-overflow-test
+[53172] EXECUTING: /usr/bin/xcrun clang buffer-overflow-test.c -o buffer-overflow-test
+[53172] EXECUTING: /Library/Developer/CommandLineTools/usr/bin/clang buffer-overflow-test.c -o buffer-overflow-test
+[53172] EXECUTING: /Library/Developer/CommandLineTools/usr/bin/clang -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name buffer-overflow-test.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 763 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -fdebug-compilation-dir=/Users/bencyc1129/Desktop/test -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/buffer-overflow-test-2fc3a3.o -x c buffer-overflow-test.c
+[53172] EXECUTING: /Library/Developer/CommandLineTools/usr/bin/ld -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o buffer-overflow-test -L/usr/local/lib /var/folders/fs/7lms62rj6gj_2s4fd9zzwfbc0000gn/T/buffer-overflow-test-2fc3a3.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a
+2022-09-11T13:48:19.444475Z|cov-build|53158|info|> Invoking cov-security-da with commands: /Users/bencyc1129/Desktop/test/bin/cov-security-da --dir /Users/bencyc1129/Desktop/test/cov-int
+2022-09-11T13:48:19.584302Z|cov-build|53158|info|> Dynamic analyzer took 138 ms
+2022-09-11T13:48:19.584302Z|cov-build|53158|info|> Build time (cov-build overall): 00:00:45.108977
+2022-09-11T13:48:19.584302Z|cov-build|53158|info|> 
+2022-09-11T13:48:19.586284Z|cov-build|53158|info|> Build time (C/C++ emits total): 00:00:42.547951
+2022-09-11T13:48:19.586284Z|cov-build|53158|info|> 
+2022-09-11T13:48:19.586284Z|cov-build|53158|info|> 
+2022-09-11T13:48:19.586402Z|cov-build|53158|info|> Emitted 1 C/C++ compilation units (100%) successfully
+2022-09-11T13:48:19.586402Z|cov-build|53158|info|> 
+2022-09-11T13:48:19.586402Z|cov-build|53158|info|> 1 C/C++ compilation units (100%) are ready for analysis
+2022-09-11T13:48:19.586402Z|cov-build|53158|info|> The cov-build utility completed successfully.

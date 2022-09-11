@@ -1,0 +1,17 @@
+[STATUS] ld-config-0: Running config probes
+**** BEGIN PROBE run_linker_config_probe ****
+Running command "/usr/bin/ld --verbose".
+pipe_command: /usr/bin/ld --verbose 
+pipe_commands starting: /usr/bin/ld --verbose 
+Failed command "/usr/bin/ld --verbose" : code 1.
+**** BEGIN OUTPUT run_linker_config_probe ****
+**** END OUTPUT run_linker_config_probe ****
+**** END PROBE run_linker_config_probe ****
+**** BEGIN PROBE run_linker_config_probe ****
+Running command "/usr/bin/ld --trace test.o".
+pipe_command: /usr/bin/ld --trace test.o 
+pipe_commands starting: /usr/bin/ld --trace test.o 
+Failed command "/usr/bin/ld --trace test.o" : code 1.
+**** BEGIN OUTPUT run_linker_config_probe ****
+**** END OUTPUT run_linker_config_probe ****
+**** END PROBE run_linker_config_probe ****

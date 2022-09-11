@@ -1,0 +1,4 @@
+/Users/bencyc1129/Desktop/test/bin/cov-security-da --dir /Users/bencyc1129/Desktop/test/cov-int 
+cov-security-da version 2022.6.0 on Darwin 21.6.0 x86_64
+Internal version numbers: 9501b3bfc3 p-2022.6-push-41
+
